@@ -39,6 +39,14 @@ img {
     border-radius: 10px;
 }
 
+a {
+    color: var(--branding-color);
+}
+
+a:hover {
+    color: #6FDAE7;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
