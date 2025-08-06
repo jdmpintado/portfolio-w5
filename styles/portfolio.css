@@ -47,6 +47,37 @@ a:hover {
     color: #6FDAE7;
 }
 
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
+}
+
+.logo {
+    max-height: 40px;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -72,7 +103,7 @@ a:hover {
 }
 
 .content-container {
-    padding: 160px 20px;
+    padding: 40px 20px;
 }
 
 .content h1 {
@@ -141,5 +172,9 @@ a:hover {
     .about-section {
         text-align: center;
         padding: 0;
+    }
+
+    nav a {
+        font-size: 12px;
     }
 }
